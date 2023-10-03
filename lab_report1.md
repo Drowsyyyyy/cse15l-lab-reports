@@ -8,4 +8,5 @@ Lastly, the cd command without arguments drives us to home directory. Therefore,
 2. Share an exmaple of using the command with a path to a directory as an argument.
 Answer: ![Image](with argument.PNG)
 Working directory: Home directory. 
-Explanation: 
+Explanation: The cd command with a directory as an argument drives us to that directory declared as an argument. For example, in this case, I used lecture1 directory as an argument so the cd command drives me from home directory to lecture1 directory.
+The cat command with a directory as an argument prints a message whether we can discriminate declared argument is a directory or a file. In this case, since 
