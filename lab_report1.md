@@ -1,7 +1,5 @@
 1. Share an example of using the command with no arguments.
-2. ddf
-3. dfadf
-   
+
 Answer: ![Image](without argument.PNG)
 
 Working directory: Home directory.
@@ -13,7 +11,7 @@ Explanation
 
 Error: N/A.
 
-2. Share an exmaple of using the command with a path to a directory as an argument,
+2. Share an exmaple of using the command with a path to a directory as an argument.
 
 Answer: ![Image](with argument.PNG)
 
