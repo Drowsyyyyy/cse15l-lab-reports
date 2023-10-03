@@ -1,7 +1,8 @@
 1. Share an example of using the command with no arguments.
 
     Answer:
-       ![Image](without argument.PNG)
+   
+   ![Image](without argument.PNG)
 
     Working directory: Home directory.
 
@@ -15,7 +16,8 @@
 3. Share an exmaple of using the command with a path to a directory as an argument.
 
     Answer:
-        ![Image](with argument.PNG)
+   
+   ![Image](with argument.PNG)
 
     Working directory: Home directory. 
 
@@ -29,7 +31,8 @@
 5. Share an example of using the command with a path to a file as an argument.
 
     Answer:
-       ![Image](argument file.PNG)
+   
+   ![Image](argument file.PNG)
 
     Working directory: Home directory.
 
