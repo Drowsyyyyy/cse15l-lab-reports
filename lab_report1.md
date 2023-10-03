@@ -1,6 +1,7 @@
 1. Share an example of using the command with no arguments.
 
-    Answer: ![Image](without argument.PNG)
+    Answer:
+       ![Image](without argument.PNG)
 
     Working directory: Home directory.
 
@@ -11,9 +12,10 @@
 
     Error: N/A.
 
-2. Share an exmaple of using the command with a path to a directory as an argument.
+3. Share an exmaple of using the command with a path to a directory as an argument.
 
-    Answer: ![Image](with argument.PNG)
+    Answer:
+        ![Image](with argument.PNG)
 
     Working directory: Home directory. 
 
@@ -24,9 +26,10 @@
 
     Error: N/A.
 
-3. Share an example of using the command with a path to a file as an argument.
+5. Share an example of using the command with a path to a file as an argument.
 
-    Answer: ![Image](argument file.PNG)
+    Answer:
+       ![Image](argument file.PNG)
 
     Working directory: Home directory.
 
