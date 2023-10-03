@@ -6,5 +6,6 @@ The cat command without arguments waits for an input from my keyboard. So, when 
 Lastly, the cd command without arguments drives us to home directory. Therefore, if we are in home directory when we put the cd command, the cd command changes nothing. 
 
 2. Share an exmaple of using the command with a path to a directory as an argument.
-Answer: ![Image}(with argument.PNG)
+Answer: ![Image](with argument.PNG)
 Working directory: Home directory. 
+Explanation: 
