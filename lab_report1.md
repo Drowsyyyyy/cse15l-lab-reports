@@ -15,3 +15,8 @@ The ls command with a directory as an argument lists all files and directories i
 Error: N/A
 
 3. Share an example of using the command with a path to a file as an argument.
+Answer: ![Image](argument file.PNG)
+Working directory: Home directory.
+Explanation: The cat command prints the message in en-us.txt file (Hello World!).
+Since there are no more directories or files to list in en-us.txt file, the ls command just lists all directories and files in the path (lecture1/messages/en-us.txt).
+The cd command is used for changing the current working directory. However, en-us.txt is not a directory, but a file. The cd command cannot changes the current working directory into a file, so the command does not pass and prints an error (bash: cd: lecture1/messages/en-us.txt: Not a directory). 
