@@ -11,7 +11,7 @@ Explanation
 
 Error: N/A.
 
-1. Share an exmaple of using the command with a path to a directory as an argument.
+2. Share an exmaple of using the command with a path to a directory as an argument.
 
 Answer: ![Image](with argument.PNG)
 
@@ -24,7 +24,7 @@ Explanation
 
 Error: N/A.
 
-1. Share an example of using the command with a path to a file as an argument.
+3. Share an example of using the command with a path to a file as an argument.
 
 Answer: ![Image](argument file.PNG)
 
