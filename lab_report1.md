@@ -17,7 +17,7 @@
 
     Answer:
    
-   ![Image](with argument.PNG)
+   ![A Image of me](with argument.PNG)
 
     Working directory: Home directory. 
 
