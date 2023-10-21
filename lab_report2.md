@@ -3,8 +3,6 @@ import java.net.URI;
 import java.util.ArrayList;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
     ArrayList<String> search = new ArrayList<String>();
     String result = "";
     int count = 1;
@@ -40,3 +38,5 @@ class StringServer {
     }
 }
 
+1. ![Image](SS1.png)
+2. ![Image](ss2.png)
