@@ -1,7 +1,7 @@
-1. ![Image](code.PNG)
+![Image](code.PNG)
 
    
-2. ![Image](SS1.png)
+![Image](SS1.png)
 
       Which methods in your code are called?
       - handleRequest method and main method are called.
@@ -16,7 +16,7 @@
       -  String result -> "1. Hello" + "\n"
       -  String[] parameters -> ["s", "Hello"]
    
-4. ![Image](ss2.png)
+![Image](ss2.png)
 
       Which methods in your code are called?
        - handleRequest method and main method are called.
@@ -30,16 +30,16 @@
       - ArrayList<String> search -> ["1. Hello " + "\n", "2. How+are+you" + "\n"]
       - String result -> "1. Hello" + "\n" + "2. How+are+you" +"\n"
       - String[] parameters -> ["s", "How+are+you"]
-   
-
-6. ![Image](private.PNG)
 
 
-7. ![Image](public.PNG)
+![Image](private.PNG)
 
 
-8. ![Image](login.PNG)
+![Image](public.PNG)
 
 
-9. In week 2, I learned how to remotely connect to the server, build and run the server. Also, I learned the structure of URL and how URL works. Especially, path, query and fragment. In week 3, the main thing I learned was SSH keys. Especially, private and public keys.
+![Image](login.PNG)
+
+
+In week 2, I learned how to remotely connect to the server, build and run the server. Also, I learned the structure of URL and how URL works. Especially, path, query and fragment. In week 3, the main thing I learned was SSH keys. Especially, private and public keys.
 Also, I learend new cmd commands, which are scp and mkdir. 
