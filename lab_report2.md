@@ -1,3 +1,5 @@
+Part1
+
 ![Image](code.PNG)
 
    
@@ -31,6 +33,8 @@
    - String result -> "1. Hello" + "\n" + "2. How+are+you" +"\n"
    - String[] parameters -> ["s", "How+are+you"]
 
+Part2
+
 1. The path to the private key for your SSH key for logging into ieng6(on your computer)
    ![Image](private.PNG)
    id_rsa file is the prviate key and id_rsa.pub is the public key.
@@ -40,8 +44,10 @@
    Since I ran the command "scp C:\Users\Jungwon Kim/.ssh/id_rsa.pub cs15lfa23ck@ieng6.ucsd.edu:~/.ssh/authorized_keys", my public ssh key (id_rsa.pub) will be copied in a file called authorized_keys. Since authorized_keys is a file not a directory, I cannot go into there by cd command
    but my public ssh key (id_rsa.pub) will be stored inside the authorized_keys file. 
 
+3. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![Image](login.PNG)
 
+Part3
 
 In week 2, I learned how to remotely connect to the server, build and run the server. Also, I learned the structure of URL and how URL works. Especially, path, query and fragment. In week 3, the main thing I learned was SSH keys. Especially, private and public keys.
 Also, I learend new cmd commands, which are scp and mkdir. 
