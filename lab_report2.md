@@ -41,10 +41,11 @@ Part2
 
 2. The path to the public key for your SSH key for logging into ieng6(within your account on ieng6)
    ![Image](public.PNG)
+   
    Since I ran the command "scp C:\Users\Jungwon Kim/.ssh/id_rsa.pub cs15lfa23ck@ieng6.ucsd.edu:~/.ssh/authorized_keys", my public ssh key (id_rsa.pub) will be copied in a file called authorized_keys. Since authorized_keys is a file not a directory, I cannot go into there by cd command
    but my public ssh key (id_rsa.pub) will be stored inside the authorized_keys file. 
 
-3. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+4. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![Image](login.PNG)
 
 Part3
