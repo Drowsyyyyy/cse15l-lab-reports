@@ -34,11 +34,9 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
     ```
     static void reverseInPlace(int[] arr) {
       int[] keep = new int[arr.length];
-
       for(int i = 0; i<arr.length; i++) {
         keep[i] = arr[i];
       }
-
       for(int i = 0; i < arr.length; i += 1) {
         arr[i] = keep[arr.length - i - 1];
       }
@@ -57,7 +55,6 @@ Part2. Researching Commands : grep
   The problem
   (MIRACL) trial set out to answer this question.
   The answer?
-
   grep -E 'Intro|Six' ./technical/biomed/1468-6708-3-1.txt
   Introduction
   Six large controlled population-based studies of
@@ -70,7 +67,6 @@ Part2. Researching Commands : grep
   ```
   grep -i 'intro' ./technical/biomed/1468-6708-3-1.txt
   Introduction
-
   grep -i 'six' ./technical/biomed/1468-6708-3-1.txt
   Six large controlled population-based studies of
   examining health status over time, we added a sixth
@@ -84,7 +80,6 @@ Part2. Researching Commands : grep
   grep -w 'adult' ./technical/biomed/1468-6708-3-1.txt
   throughout adult life. It may be that a small amount of
   average older adult; however, adjustment for detailed
-
   grep -w 'adults' ./technical/biomed/1468-6708-3-1.txt
   Older adults are frequently counseled to lose weight,
   non-smoking older adults have investigated the association
@@ -113,7 +108,6 @@ Part2. Researching Commands : grep
   ```
   grep -c 'adult' ./technical/biomed/1468-6708-3-1.txt
   20
-
   grep -c 'Intro' ./technical/biomed/1468-6708-3-1.txt
   1
   ```
