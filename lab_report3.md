@@ -32,7 +32,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
     ```
   - After
     ```
-     static void reverseInPlace(int[] arr) {
+    static void reverseInPlace(int[] arr) {
       int[] keep = new int[arr.length];
 
       for(int i = 0; i<arr.length; i++) {
