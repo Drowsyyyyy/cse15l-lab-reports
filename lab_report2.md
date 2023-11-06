@@ -31,12 +31,14 @@
    - String result -> "1. Hello" + "\n" + "2. How+are+you" +"\n"
    - String[] parameters -> ["s", "How+are+you"]
 
+1. The path to the private key for your SSH key for logging into ieng6(on your computer)
+   ![Image](private.PNG)
+   id_rsa file is the prviate key and id_rsa.pub is the public key.
 
-![Image](private.PNG)
-
-
-![Image](public.PNG)
-
+2. The path to the public key for your SSH key for logging into ieng6(within your account on ieng6)
+   ![Image](public.PNG)
+   Since I ran the command "scp C:\Users\Jungwon Kim/.ssh/id_rsa.pub cs15lfa23ck@ieng6.ucsd.edu:~/.ssh/authorized_keys", my public ssh key (id_rsa.pub) will be copied in a file called authorized_keys. Since authorized_keys is a file not a directory, I cannot go into there by cd command
+   but my public ssh key (id_rsa.pub) will be stored inside the authorized_keys file. 
 
 ![Image](login.PNG)
 
