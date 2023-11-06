@@ -30,7 +30,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
       }
     }
     ```
-  - After 
+  - After
     ```
      static void reverseInPlace(int[] arr) {
       int[] keep = new int[arr.length];
