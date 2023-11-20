@@ -65,6 +65,8 @@ Keys pressed: git <space> status <enter>
 git <space> add <space> ListExamples.java <enter>
 git <space> commit <space> -m <space> "added <space> ListExamples.java" <enter>
 git <space> log
+```
+```
 First, check which file is modified by git status command.
 Since we only make changes in ListExamples.java file,
 add changes by git add ListExamples.java command.
