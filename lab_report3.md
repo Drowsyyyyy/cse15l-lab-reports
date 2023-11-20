@@ -50,7 +50,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
 Part2. Researching Commands : grep
 
 1. grep -E
-  ```bash
+  ```
   grep -E 'answer|problem' ./technical/biomed/1468-6708-3-3.txt
   The problem
   (MIRACL) trial set out to answer this question.
@@ -65,7 +65,7 @@ Part2. Researching Commands : grep
   citation: https://csiro-data-school.github.io/regex/03-egrep-find/index.html
   
 2. grep -i
-  ```bash
+  ```
   grep -i 'intro' ./technical/biomed/1468-6708-3-1.txt
   Introduction
   grep -i 'six' ./technical/biomed/1468-6708-3-1.txt
@@ -78,7 +78,7 @@ Part2. Researching Commands : grep
   citation: grep --help (git bash terminal) 
 
 3. grep -w
-  ```bash
+  ```
   grep -w 'adult' ./technical/biomed/1468-6708-3-1.txt
   throughout adult life. It may be that a small amount of
   average older adult; however, adjustment for detailed
@@ -108,7 +108,7 @@ Part2. Researching Commands : grep
   citation: https://unix.stackexchange.com/questions/524828/what-does-grep-w-do
 
 4. grep -c
-  ```bash
+  ```
   grep -c 'adult' ./technical/biomed/1468-6708-3-1.txt
   20
   grep -c 'Intro' ./technical/biomed/1468-6708-3-1.txt
