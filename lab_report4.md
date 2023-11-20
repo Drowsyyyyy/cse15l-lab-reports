@@ -72,7 +72,10 @@ Next, commit and push at the same time with commit message "added ListExamples.j
 by git commit -m "added ListExamples.java" command.
 Finally, check wheter the resulting change is successfully committed and pushed
 to my Github account by git log command.
+
+
 ```
+
 
 ![Image](step9.PNG)
 
