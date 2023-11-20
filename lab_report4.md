@@ -1,7 +1,7 @@
 - Step 4
 Keys pressed: ssh <space> cs15lfa23ck@ieng6-201.ucsd.edu <enter>
 The command for loging into remote server ieng6.
-![Image](step 4.PNG)
+![Image](step4.PNG)
 
 - Step 5
 Keys pressed: git <space> clone <space> git@github.com:Drowsyyyyy/lab7.git <enter>
