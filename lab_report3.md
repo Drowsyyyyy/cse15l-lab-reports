@@ -1,7 +1,7 @@
 Part1. A bug of reverseInPlace method in ArrayExamples class. 
 
 1. A failure-inducing input as a JUnit test.
-  ```
+  ```java
   @Test
   public void testFailReverseInPlace() {
     int[] input2 = {1, 2, 3};
