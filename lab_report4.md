@@ -33,7 +33,8 @@ Finally, run the test with provided bash script by bash test.sh command.
 
 - Step 7
 ```
-Keys pressed: vim <space> ListExamples.java <enter>, /index1 <enter>, <shift> n, e, a, <backspace>, 2, <esc>, :wq!, <enter>
+Keys pressed: vim <space> ListExamples.java <enter>
+/index1 <enter>, <shift> n, e, a, <backspace>, 2, <esc>, :wq!, <enter>
 First, vim ListExamples.java file to edit the bug.
 Next, search all index1 words in the file by /index1.
 Next, press shift n to go bottom where we need to fix the code.
@@ -62,8 +63,10 @@ Keys pressed: git <space> status <enter>, git <space> add <space> ListExamples.j
 git <space> commit <space> -m <space> "added <space> ListExamples.java" <enter>, git <space> log
 First, check which file is modified by git status command.
 Since we only make changes in ListExamples.java file, add changes by git add ListExamples.java command.
-Next, commit and push at the same time with commit message "added ListExamples.java" by git commit -m "added ListExamples.java" command.
-Finally, check wheter the resulting change is successfully committed and pushed to my Github account by git log command.
+Next, commit and push at the same time with commit message "added ListExamples.java"
+by git commit -m "added ListExamples.java" command.
+Finally, check wheter the resulting change is successfully committed and pushed to my Github account
+by git log command.
 ```
 
 ![Image](step9.PNG)
