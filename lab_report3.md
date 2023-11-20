@@ -20,8 +20,10 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
   ```
 3. The symptom, as the output of running the tests.
   ![Image](arraytest.PNG)
+  ![Image](arraytest2.PNG)
+  testFailReverseInPlace() failed and testNotFailReverseInPlace() passed.
 
-4. The bug, as the before-and-after code
+5. The bug, as the before-and-after code
   - Before
     ```java
     static void reverseInPlace(int[] arr) {
