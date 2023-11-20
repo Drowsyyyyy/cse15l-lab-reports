@@ -35,18 +35,16 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
   - After
     ```java
     static void reverseInPlace(int[] arr) {
-      int[] keep = new int[arr.length];
-      for(int i = 0; i<arr.length; i++) {
-        keep[i] = arr[i];
-      }
-      for(int i = 0; i < arr.length; i += 1) {
-        arr[i] = keep[arr.length - i - 1];
+      for(int i = 0; i < arr.length/2; i+=1) {
+        int temp = arr[i];
+        arr[i] = arr[arr.length -i -1];
+        arr[arr.length-i-1] = temp;
       }
     }
     ```
 5. Briefly describe why the fix addresses the issue.
-  When we try to change the input array to be in reversed order, the previous code has a bug because it is trying to change the input array directly by assigning its value in each index. So, we can make another temporary array which contains exactly same elements with the input array. Since we are only changing the
-  elements in the input array, the elements in temporary array remain same. Now, we can change the elements of the input array by using the temporary array.
+  Since we are changing values of the input array in itself, we need a temporary int variable that stores previous value. By this temp variable idea, we can easily swap two values within the input array. Swap first and last, second and last-1. Keep going until we reach the half of the array which means
+  we finished reversing in place. 
 
 
 Part2. Researching Commands : grep
@@ -62,7 +60,8 @@ Part2. Researching Commands : grep
   Six large controlled population-based studies of
   ```
   -E option allows that the pattern is an extended regular expression. It is useful because we can search multiple patterns at once. If we use grep without -E option, the patteren will recognize 'answer|problem' as a single string itself. 
-
+  First example prints all the lines that contain "answer" or "problem" key words. Second example prints all the lines that contain "Intro" or "Six" key words. 
+  
   citation: https://csiro-data-school.github.io/regex/03-egrep-find/index.html
   
 2. grep -i
@@ -74,6 +73,7 @@ Part2. Researching Commands : grep
   examining health status over time, we added a sixth
   ```
   -i option ignores case distinctions. It is useful when we want to ignore case distinctions of the input patterns. 
+  First example prints all the lines that contain "intro" key word regardless of case distinctions. Second example prints all the lines that contain "six" key word regardless of case distinctions. 
 
   citation: grep --help (git bash terminal) 
 
@@ -103,16 +103,18 @@ Part2. Researching Commands : grep
   that address older adults who are merely overweight.
   ```
   -w option selects only those lines containing matches that form whole words. It is useful when we do not want to include the lines containing a word of which the pattern is a substring. 
+  First example prints all the lines that contain exactly "adult" whole key word. Second example prints all the lines that contain exactly "adults" whole key word. 
 
   citation: https://unix.stackexchange.com/questions/524828/what-does-grep-w-do
 
 4. grep -c
-  ```
+  ```bash
   grep -c 'adult' ./technical/biomed/1468-6708-3-1.txt
   20
   grep -c 'Intro' ./technical/biomed/1468-6708-3-1.txt
   1
   ```
   -c option prints the number of lines of output context. It is useful when we just want to know how many lines matching with the input pattern there are.
+  First example prints the number of lines that contain "adult" key word. Second example prints the number of lines that contain "Intro" key word. 
 
   citation: grep --help (git bash terminal)
