@@ -43,7 +43,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
     }
     ```
 5. Briefly describe why the fix addresses the issue.
-  Since we are changing values of the input array in itself, we need a temporary int variable that stores previous value. By this temp variable idea, we can easily swap two values within the input array. Swap first and last, second and last-1. Keep going until we reach the half of the array which means
+  Since we are changing values of the input array in itself, we need a temporary int variable that stores previous value. By this temp variable idea, we can easily swap two values within the input array. Swap the first and the last, second and last-1. Keep going until we reach the half of the array which means
   we finished reversing in place. 
 
 
@@ -60,7 +60,7 @@ Part2. Researching Commands : grep
   Six large controlled population-based studies of
   ```
   -E option allows that the pattern is an extended regular expression. It is useful because we can search multiple patterns at once. If we use grep without -E option, the patteren will recognize 'answer|problem' as a single string itself. 
-  First example prints all the lines that contain "answer" or "problem" key words. Second example prints all the lines that contain "Intro" or "Six" key words. 
+  The first example prints all the lines that contain "answer" or "problem" key words. The second example prints all the lines that contain "Intro" or "Six" key words. 
   
   citation: https://csiro-data-school.github.io/regex/03-egrep-find/index.html
   
@@ -73,7 +73,7 @@ Part2. Researching Commands : grep
   examining health status over time, we added a sixth
   ```
   -i option ignores case distinctions. It is useful when we want to ignore case distinctions of the input patterns. 
-  First example prints all the lines that contain "intro" key word regardless of case distinctions. Second example prints all the lines that contain "six" key word regardless of case distinctions. 
+  The first example prints all the lines that contain "intro" key word regardless of case distinctions. The second example prints all the lines that contain "six" key word regardless of case distinctions. 
 
   citation: grep --help (git bash terminal) 
 
@@ -103,7 +103,7 @@ Part2. Researching Commands : grep
   that address older adults who are merely overweight.
   ```
   -w option selects only those lines containing matches that form whole words. It is useful when we do not want to include the lines containing a word of which the pattern is a substring. 
-  First example prints all the lines that contain exactly "adult" whole key word. Second example prints all the lines that contain exactly "adults" whole key word. 
+  The first example prints all the lines that contain exactly "adult" whole key word. The second example prints all the lines that contain exactly "adults" whole key word. 
 
   citation: https://unix.stackexchange.com/questions/524828/what-does-grep-w-do
 
@@ -115,6 +115,6 @@ Part2. Researching Commands : grep
   1
   ```
   -c option prints the number of lines of output context. It is useful when we just want to know how many lines matching with the input pattern there are.
-  First example prints the number of lines that contain "adult" key word. Second example prints the number of lines that contain "Intro" key word. 
+  The first example prints the number of lines that contain "adult" key word. The second example prints the number of lines that contain "Intro" key word. 
 
   citation: grep --help (git bash terminal)
