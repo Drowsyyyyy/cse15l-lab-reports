@@ -70,7 +70,7 @@ git <space> log
 First, check which file is modified by git status command.
 Since we only make changes in ListExamples.java file,
 add changes by git add ListExamples.java command.
-Next, commit and push at the same time with commit message "added ListExamples.java"
+Next, commit and push with commit message "added ListExamples.java"
 by git commit -m "added ListExamples.java" command.
 Finally, check wheter the resulting change is successfully committed and pushed
 to my Github account by git log command.
