@@ -20,9 +20,11 @@ The command for git cloning lab7 forked repository with ssh clone URLs.
 
 - Step 6
 ```
-Keys pressed: ls <enter>, cd <space> lab7 <enter>, ls <enter>, bash <space> test.sh <enter>
+Keys pressed: ls <enter>, cd <space> lab7 <enter>, ls <enter>
+bash <space> test.sh <enter>
 First, check all directories in my ieng6 account by ls command.
-Next, change my current working directory as lab7 cloned repositoy by cd lab7 command.
+Next, change my current working directory as lab7 cloned repositoy
+by cd lab7 command.
 Next, ls again to check what files we have in lab7 repository.
 Finally, run the test with provided bash script by bash test.sh command.
 ```
@@ -59,14 +61,17 @@ Run the test with provided bash script by bash test.sh command.
 
 - Step 9
 ```
-Keys pressed: git <space> status <enter>, git <space> add <space> ListExamples.java <enter>
-git <space> commit <space> -m <space> "added <space> ListExamples.java" <enter>, git <space> log
+Keys pressed: git <space> status <enter>
+git <space> add <space> ListExamples.java <enter>
+git <space> commit <space> -m <space> "added <space> ListExamples.java" <enter>
+git <space> log
 First, check which file is modified by git status command.
-Since we only make changes in ListExamples.java file, add changes by git add ListExamples.java command.
+Since we only make changes in ListExamples.java file,
+add changes by git add ListExamples.java command.
 Next, commit and push at the same time with commit message "added ListExamples.java"
 by git commit -m "added ListExamples.java" command.
-Finally, check wheter the resulting change is successfully committed and pushed to my Github account
-by git log command.
+Finally, check wheter the resulting change is successfully committed and pushed
+to my Github account by git log command.
 ```
 
 ![Image](step9.PNG)
