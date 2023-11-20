@@ -10,7 +10,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
   }
   ```
 2. An input that does not induce a failure, as a Junit Test.
-  ```
+  ```java
   @Test
   public void testNotFailReverseInPlace() {
     int[] input2 = {1, 1};
@@ -23,7 +23,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
 
 4. The bug, as the before-and-after code
   - Before
-    ```
+    ```java
     static void reverseInPlace(int[] arr) {
       for(int i = 0; i < arr.length; i += 1) {
         arr[i] = arr[arr.length - i - 1];
@@ -31,7 +31,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
     }
     ```
   - After
-    ```
+    ```java
     static void reverseInPlace(int[] arr) {
       int[] keep = new int[arr.length];
       for(int i = 0; i<arr.length; i++) {
@@ -50,7 +50,7 @@ Part1. A bug of reverseInPlace method in ArrayExamples class.
 Part2. Researching Commands : grep
 
 1. grep -E
-  ```
+  ```bash
   grep -E 'answer|problem' ./technical/biomed/1468-6708-3-3.txt
   The problem
   (MIRACL) trial set out to answer this question.
@@ -64,7 +64,7 @@ Part2. Researching Commands : grep
   citation: https://csiro-data-school.github.io/regex/03-egrep-find/index.html
   
 2. grep -i
-  ```
+  ```bash
   grep -i 'intro' ./technical/biomed/1468-6708-3-1.txt
   Introduction
   grep -i 'six' ./technical/biomed/1468-6708-3-1.txt
@@ -76,7 +76,7 @@ Part2. Researching Commands : grep
   citation: grep --help (git bash terminal) 
 
 3. grep -w
-  ```
+  ```bash
   grep -w 'adult' ./technical/biomed/1468-6708-3-1.txt
   throughout adult life. It may be that a small amount of
   average older adult; however, adjustment for detailed
