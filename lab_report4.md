@@ -65,13 +65,14 @@ Keys pressed: git <space> status <enter>
 git <space> add <space> ListExamples.java <enter>
 git <space> commit <space> -m <space> "added <space> ListExamples.java" <enter>
 git <space> log
+git <space> push <space> origin <psace> main
 ```
 ```
 First, check which file is modified by git status command.
 Since we only make changes in ListExamples.java file,
 add changes by git add ListExamples.java command.
 Next, commit and push with commit message "added ListExamples.java"
-by git commit -m "added ListExamples.java" command.
+by git commit -m "added ListExamples.java" and git push origin main command.
 Finally, check wheter the resulting change is successfully committed and pushed
 to my Github account by git log command.
 ```
@@ -79,3 +80,4 @@ to my Github account by git log command.
 
 ![Image](step9.PNG)
 
+![Image](step9_2.PNG)
