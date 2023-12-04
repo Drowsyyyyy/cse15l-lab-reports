@@ -28,3 +28,10 @@ Since local varaible index2 is the variable for list2, I changed index1 to index
 ![Image](infinite1.PNG)
 ![Image](infinite2.PNG)
 ![Image](succeed3.PNG)
+
+
+- Part 2: Reflection
+
+I learned a lot from the second half of this quarter. However, if I need to pick one topic which was the most interesting for me, I would pick Vim command.
+When we learned about remote server things in the first half of this quarter, we learned how to add and delete files and directories using commands touch, mkdir, rm -rf, etc. 
+However, I wonder what we should do if we want to edit the files we added to a remote server. Vim command answered to my all curiosities. 
