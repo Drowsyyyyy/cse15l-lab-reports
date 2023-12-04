@@ -27,3 +27,4 @@ Since local varaible index2 is the variable for list2, I changed index1 to index
 ![Image](systemout.PNG)
 ![Image](infinite1.PNG)
 ![Image](infinite2.PNG)
+![Image](succeed2.PNG)
