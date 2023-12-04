@@ -5,6 +5,11 @@ It seems like working partially well since the first test passed. In the termina
 I have no idea how to deal with time-out errors. Also, I have no idea why the first test passed but the second test failed. 
 What differences between test 1 and test 2 induce the time-out error? 
 
+![Image](merge.PNG)
+![Image](test.PNG)
+![Image](output.PNG)
+![Image](script.PNG)
+
 - Answer from TA 
 
 Hello! Usually, time-out errors happen when there are bugs in your loops. I would suggest you to check thoroughly your while loops. 
@@ -18,3 +23,7 @@ I added System.out.println(loop counter) in all my while loops and the numbers i
 I searched for which while loop is causing infinite loop and found that the while loop with condition (index2 < list2.size()) does not have correct loop counter matching with the condtion. 
 It is increasing index1 with each iteration even though this while loop is for adding rest elements in list2. 
 Since local varaible index2 is the variable for list2, I changed index1 to index2 and it fixed the problem! 
+
+![Image](systemout.PNG)
+![Image](infinite1.PNG)
+![Image](infinite2.PNG)
