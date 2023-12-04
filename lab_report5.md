@@ -24,7 +24,7 @@ I searched for which while loop is causing infinite loop and found that the whil
 It is increasing index1 with each iteration even though this while loop is for adding rest elements in list2. 
 Since local varaible index2 is the variable for list2, I changed index1 to index2 and it fixed the problem! 
 
-![Image](systemout.PNG)
+![Image](systemout2.PNG)
 ![Image](infinite1.PNG)
 ![Image](infinite2.PNG)
-![Image](succeed2.PNG)
+![Image](succeed3.PNG)
